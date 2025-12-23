@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HEIC a JPG</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Convertir HEIC a JPG</h1>
+    <p>Subí varias imágenes HEIC y descargá todas en JPG.</p>
+
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <input type="file" name="images" multiple accept=".heic" required>
+        <button type="submit">Convertir y descargar</button>
+    </form>
+</div>
+
+</body>
+</html>
