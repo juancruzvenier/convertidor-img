@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HEIC a JPG</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
@@ -14,9 +15,11 @@
     <form action="/convert" method="POST" enctype="multipart/form-data">
         <input type="file" name="images" multiple accept=".heic" required>
         <button type="submit">Convertir y descargar</button>
-        <hr>   
-        <a target="_blank" href="https://github.com/juancruzvenier/"><img src="../static/img/github-svgrepo-com.svg" width="20px" alt=""></a>
-        <a target="_blank" href="https://www.linkedin.com/in/juan-cruz-venier/"><img src="../static/img/linkedin-svgrepo-com.svg" width="20px" alt=""></a>
+        <hr>
+        <div class="social">
+            <a target="_blank" href="https://github.com/juancruzvenier/"><img src="../static/img/github-svgrepo-com.svg" width="20px" alt=""></a>
+            <a target="_blank" href="https://www.linkedin.com/in/juan-cruz-venier/"><img src="../static/img/linkedin-svgrepo-com.svg" width="20px" alt=""></a>
+        </div>
     </form>
 </div>
 
